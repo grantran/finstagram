@@ -1,5 +1,5 @@
-# A sample Gemfile
 source "https://rubygems.org"
+
 gem 'rake'
 gem 'activesupport'
 
@@ -10,6 +10,9 @@ gem 'sinatra-activerecord'
 gem 'puma'
 gem 'tux'
 gem 'pry'
+
+gem 'rails_12factor'
+  gem 'pg'
 
 group :development, :test do
   gem 'shotgun'
